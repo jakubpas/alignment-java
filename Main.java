@@ -11,7 +11,7 @@ public class Main {
         Main app = new Main();
         String fileName = args[0];
         System.out.println(fileName);
-        app.printFile(Aligment.align(app.readFile(fileName)));
+        app.printFile(Alignment.align(app.readFile(fileName)));
     }
 
     public List<String> readFile(String fileName) {

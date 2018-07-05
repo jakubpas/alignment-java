@@ -8,9 +8,19 @@
 * It takes first two sequences from fasta[2] file (one sequence per line) and returns aligned sequences
 also in fasta format.
 
-Usage:
+##Usage:
 
-`alignment-java fasta_file.fas`
+`javac *.java`
+
+`java -cp . Main alignment.fas`
+
+Or create jar file:
+
+`javac *.java`
+
+`jar cvfm alignment.jar manifest.txt *.class`
+
+`java -jar alignment.jar alignment.fas`
 
 [1]  Levenshtein, Vladimir I (1965).
     Binary codes capable of correcting deletions, insertions, and reversals.

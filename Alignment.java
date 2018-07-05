@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Aligment {
+public class Alignment {
 
     public static List<String> align(List<String> fasta) {
 

@@ -1,7 +1,6 @@
 # Java pairwise global alignment
 
-(c) 2005 by Jakub Pas<jakubpas@gmail.com>
-
+(c) 2005 by Jakub Pas
 
 * Java implementation of global alignment using a variation of Levenshtein[1] distance
 * Rewritten to Java
